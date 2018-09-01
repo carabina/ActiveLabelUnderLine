@@ -12,6 +12,11 @@
 		804E8B3D213B205C00FB0C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804E8B3B213B205C00FB0C87 /* Main.storyboard */; };
 		804E8B3F213B205F00FB0C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804E8B3E213B205F00FB0C87 /* Assets.xcassets */; };
 		804E8B42213B205F00FB0C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804E8B40213B205F00FB0C87 /* LaunchScreen.storyboard */; };
+		804E8B4F213B206C00FB0C87 /* ActiveBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8B4A213B206C00FB0C87 /* ActiveBuilder.swift */; };
+		804E8B50213B206C00FB0C87 /* ActiveLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8B4B213B206C00FB0C87 /* ActiveLabel.swift */; };
+		804E8B51213B206C00FB0C87 /* ActiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8B4C213B206C00FB0C87 /* ActiveType.swift */; };
+		804E8B52213B206C00FB0C87 /* RegexParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8B4D213B206C00FB0C87 /* RegexParser.swift */; };
+		804E8B53213B206C00FB0C87 /* StringTrimExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8B4E213B206C00FB0C87 /* StringTrimExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		804E8B3E213B205F00FB0C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		804E8B41213B205F00FB0C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		804E8B43213B205F00FB0C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804E8B4A213B206C00FB0C87 /* ActiveBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveBuilder.swift; sourceTree = "<group>"; };
+		804E8B4B213B206C00FB0C87 /* ActiveLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveLabel.swift; sourceTree = "<group>"; };
+		804E8B4C213B206C00FB0C87 /* ActiveType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveType.swift; sourceTree = "<group>"; };
+		804E8B4D213B206C00FB0C87 /* RegexParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexParser.swift; sourceTree = "<group>"; };
+		804E8B4E213B206C00FB0C87 /* StringTrimExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTrimExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				804E8B36213B205C00FB0C87 /* ActiveLabelUnderLine */,
+				804E8B49213B206C00FB0C87 /* ActiveLabel */,
 				804E8B35213B205C00FB0C87 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +73,18 @@
 				804E8B43213B205F00FB0C87 /* Info.plist */,
 			);
 			path = ActiveLabelUnderLine;
+			sourceTree = "<group>";
+		};
+		804E8B49213B206C00FB0C87 /* ActiveLabel */ = {
+			isa = PBXGroup;
+			children = (
+				804E8B4A213B206C00FB0C87 /* ActiveBuilder.swift */,
+				804E8B4B213B206C00FB0C87 /* ActiveLabel.swift */,
+				804E8B4C213B206C00FB0C87 /* ActiveType.swift */,
+				804E8B4D213B206C00FB0C87 /* RegexParser.swift */,
+				804E8B4E213B206C00FB0C87 /* StringTrimExtension.swift */,
+			);
+			path = ActiveLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804E8B53213B206C00FB0C87 /* StringTrimExtension.swift in Sources */,
+				804E8B50213B206C00FB0C87 /* ActiveLabel.swift in Sources */,
+				804E8B4F213B206C00FB0C87 /* ActiveBuilder.swift in Sources */,
+				804E8B52213B206C00FB0C87 /* RegexParser.swift in Sources */,
 				804E8B3A213B205C00FB0C87 /* ViewController.swift in Sources */,
 				804E8B38213B205C00FB0C87 /* AppDelegate.swift in Sources */,
+				804E8B51213B206C00FB0C87 /* ActiveType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
