@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   #  can feel like a chore to fill in it's definitely to your advantage. The
   #  summary should be tweet-length, and the description more in depth.
   #
-swift_version    = 4.1
   s.name         = "ActiveLabelUnderLine"
   s.version      = "1.0.0"
   s.swift_version = '>= 4.1'
@@ -80,7 +79,7 @@ swift_version    = 4.1
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/hemanthalluri/ActiveLabelUnderLine.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/hemanthalluri/ActiveLabelUnderLine.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
