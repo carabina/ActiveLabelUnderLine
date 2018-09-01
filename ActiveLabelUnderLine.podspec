@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 swift_version    = 4.1
   s.name         = "ActiveLabelUnderLine"
   s.version      = "1.0.0"
+  s.swift_version = '>= 4.1'
   s.summary      = "Added Add-on for ActiveLabel.swift "
 
   # This description is used to generate tags and improve search results.
