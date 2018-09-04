@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Hemanth.Alluri" => "iosengineer@outlook.com" }
   s.platform     = :ios, '9.0'
-  s.source       = { :git => "https://github.com/hemanthalluri/ActiveLabelUnderLine.git", :tag => s.version.to_s  }
-
-  s.source_files = 'ActiveLabel/*.swift'
+  s.source       = { :git => "https://github.com/hemanthalluri/ActiveLabelUnderLine.git", :tag => "1.0.0" }
+s.swift_version = "4.1"
+  s.source_files = "ActiveLabel"
 end
